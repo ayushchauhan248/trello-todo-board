@@ -1,24 +1,25 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f3f4f6;
+  background-color: #f9f9f9;
 }
 
 .app-container {
   padding: 20px;
   text-align: center;
+  background: aliceblue;
 }
 
 .title {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #563263;
+  color: #009688;
 }
 
 .loading-style {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: rgb(58, 21, 94);
+  color: #00796b;
 }
 
 .create-form {
@@ -33,13 +34,13 @@ body {
   font-size: 1rem;
   width: 300px;
   border-radius: 5px;
-  border: 1px solid #9e53c1;
+  border: 1px solid #80cbc4;
 }
 
 .create-button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #563263;
+  background-color: #009688;
   color: white;
   border: none;
   border-radius: 5px;
@@ -47,7 +48,7 @@ body {
 }
 
 .create-button:hover {
-  background-color: #4e225e;
+  background-color: #00796b;
 }
 
 .board {
@@ -57,21 +58,21 @@ body {
 }
 
 .lane {
-  background-color: #d9d9d9;
+  background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
   width: 300px;
   min-height: 500px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .lane.hovered {
-  background-color: #e0f2fe;
+  background-color: #e0f2f1;
 }
 
 .todo-card {
-  background-color: #563263;
-  border: 1px solid #ddd;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
   margin-bottom: 10px;
   padding: 15px;
   border-radius: 8px;
@@ -80,11 +81,11 @@ body {
 }
 
 .todo-description-style {
-  color: white;
+  color: #333333;
 }
 
 .todo-card.dragging {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .btn-group {
@@ -99,20 +100,18 @@ body {
   padding: 5px 10px;
   cursor: pointer;
   font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
 }
 
 .edit-btn {
-  background-color: #d8b0e6;
-  color: #563263;
-  border: none;
-  border-radius: 5px;
+  background-color: #80cbc4;
+  color: #004d40;
 }
 
 .delete-btn {
-  background-color: lightgray;
-  color: #563263;
-  border: none;
-  border-radius: 5px;
+  background-color: #ffa726;
+  color: #ffffff;
 }
 
 .edit-section {
@@ -131,22 +130,22 @@ body {
   gap: 10px;
 }
 
-.save-btn, .cancel-btn {
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 0.9rem;
-}
-
 .save-btn {
-  background-color: #d8b0e6;
-  color: #563263;
+  background-color: #80cbc4;
+  color: #004d40;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
   border: none;
   border-radius: 5px;
 }
 
 .cancel-btn {
-  background-color: lightgray;
-  color: #563263;
+  background-color: #eeeeee;
+  color: #555555;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
   border: none;
   border-radius: 5px;
 }
