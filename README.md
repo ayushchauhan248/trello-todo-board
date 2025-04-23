@@ -1,8 +1,8 @@
-# 📝 Trello Todo Board
+# Trello Todo Board
 
 A simple Trello todo board built with **React**, **Redux Toolkit**, and **react-dnd**.
 
-## 🚀 How to run locally
+# How to run locally
 
 1. **Clone the repository:**
 git clone https://github.com/ayushchauhan248/trello-todo-board.git
