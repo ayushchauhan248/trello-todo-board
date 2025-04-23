@@ -1,3 +1,152 @@
-.App {
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.app-container {
+  padding: 20px;
   text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #563263;
+}
+
+.loading-style {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: rgb(58, 21, 94);
+}
+
+.create-form {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.create-input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #9e53c1;
+}
+
+.create-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #563263;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background-color: #4e225e;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.lane {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  min-height: 500px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lane.hovered {
+  background-color: #e0f2fe;
+}
+
+.todo-card {
+  background-color: #563263;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+  position: relative;
+}
+
+.todo-description-style {
+  color: white;
+}
+
+.todo-card.dragging {
+  opacity: 0.5;
+}
+
+.btn-group {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.edit-btn {
+  background-color: #d8b0e6;
+  color: #563263;
+  border: none;
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background-color: lightgray;
+  color: #563263;
+  border: none;
+  border-radius: 5px;
+}
+
+.edit-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-input {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.edit-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.save-btn, .cancel-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.save-btn {
+  background-color: #d8b0e6;
+  color: #563263;
+  border: none;
+  border-radius: 5px;
+}
+
+.cancel-btn {
+  background-color: lightgray;
+  color: #563263;
+  border: none;
+  border-radius: 5px;
 }
